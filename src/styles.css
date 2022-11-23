@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contenedor {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #d1d3d3;
+}
+
+.cont_notas {
+  background-color: white;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.notaScroll {
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

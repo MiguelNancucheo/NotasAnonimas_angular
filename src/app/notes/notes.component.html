@@ -1,0 +1,5 @@
+<div class="cont_notas" *ngFor="let note of notes; index as i">
+  <!-- <p class="textRight"> {{ i }} - Noted on:{{ note.createdAt | date:'dd-MM-yyyy' }}</p> -->
+  <p class="textRight">Noted on: {{ note.createdAt | date:'medium' }}</p>
+  <p> {{ note.note }} </p>
+</div>
